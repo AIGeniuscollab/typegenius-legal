@@ -46,6 +46,12 @@
             margin-bottom: 15px;
             font-size: 24px;
         }
+        h3 {
+            color: #764ba2;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
         p {
             margin-bottom: 15px;
             color: #555;
@@ -78,6 +84,37 @@
             border-radius: 5px;
             margin-top: 30px;
         }
+        .highlight-box {
+            background: #e8f4fd;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        .warning-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        a {
+            color: #667eea;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background: #667eea;
+            color: white;
+        }
         @media (max-width: 600px) {
             .container {
                 padding: 20px;
@@ -99,78 +136,185 @@
         <p style="color: #667eea; font-weight: bold;">TypeGenius AI Keyboard</p>
     </div>
 
-    <p class="last-updated">Last Updated: June 15, 2025</p>
+    <p class="last-updated">Effective Date: February 1, 2026 | Last Updated: February 1, 2026</p>
 
-    <p>At TypeGenius, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your information when you use our AI-powered keyboard application.</p>
+    <p>At TypeGenius ("we," "our," or "us"), we are committed to protecting your privacy. This Privacy Policy describes how we collect, use, disclose, and safeguard your information when you use our TypeGenius AI Keyboard mobile application (the "App").</p>
 
-    <h2>1. Information We Collect</h2>
-    <p>TypeGenius collects the following types of information:</p>
+    <div class="highlight-box">
+        <strong>Key Points:</strong>
+        <ul style="margin-top: 10px; margin-bottom: 0;">
+            <li>We do NOT store your typed text or voice recordings after processing</li>
+            <li>We do NOT sell your personal data to third parties</li>
+            <li>We do NOT use your data for advertising purposes</li>
+            <li>All data transmission is encrypted using industry-standard protocols</li>
+        </ul>
+    </div>
+
+    <h2>1. How TypeGenius Works</h2>
+
+    <p>TypeGenius functions as an Input Method Editor (IME) on your device. This means:</p>
     <ul>
-        <li><strong>Text Input:</strong> When you use AI features (voice transcription, grammar correction, text enhancement), we temporarily process your text to provide the service.</li>
-        <li><strong>Voice Data:</strong> When you use voice-to-text features, audio recordings are sent to our servers for transcription and are immediately deleted after processing.</li>
-        <li><strong>Usage Data:</strong> We collect anonymous usage statistics to improve app performance and features.</li>
-        <li><strong>Device Information:</strong> Basic device information such as OS version and device type to ensure compatibility.</li>
+        <li><strong>Local Processing:</strong> Standard typing (without AI features) is processed entirely on your device. We do NOT transmit your keystrokes to any server during normal typing.</li>
+        <li><strong>AI Feature Processing:</strong> When you explicitly activate AI features (voice transcription, grammar correction, text enhancement), only that specific text is securely transmitted to our servers for processing.</li>
+        <li><strong>No Keystroke Logging:</strong> We do NOT log, store, or analyze your typing patterns, passwords, or any text you type unless you explicitly use an AI feature.</li>
     </ul>
 
-    <h2>2. How We Use Your Information</h2>
-    <p>We use the collected information to:</p>
+    <h2>2. Information We Collect</h2>
+
+    <h3>2.1 Information You Provide</h3>
     <ul>
-        <li>Provide AI-powered keyboard features (transcription, grammar correction, text enhancement)</li>
-        <li>Improve and optimize our services</li>
-        <li>Diagnose and fix technical issues</li>
-        <li>Analyze usage patterns to develop new features</li>
+        <li><strong>Text for AI Processing:</strong> When you use AI features (voice-to-text, grammar correction, text enhancement, translation), we temporarily process the text you submit.</li>
+        <li><strong>Voice Recordings:</strong> When you use voice transcription, audio is transmitted to our servers, processed, and immediately deleted.</li>
+        <li><strong>Support Communications:</strong> If you contact us for support, we may collect your email address and the content of your communications.</li>
     </ul>
 
-    <h2>3. Data Storage and Security</h2>
+    <h3>2.2 Automatically Collected Information</h3>
     <ul>
-        <li><strong>No Long-Term Storage:</strong> Your typed text and voice recordings are processed in real-time and are NOT stored on our servers after processing.</li>
-        <li><strong>Encryption:</strong> All data transmitted between your device and our servers is encrypted using industry-standard SSL/TLS protocols.</li>
-        <li><strong>Third-Party AI Services:</strong> We use OpenAI's GPT and Whisper APIs to power our AI features. Your data is processed according to OpenAI's data usage policies.</li>
-        <li><strong>Local Preferences:</strong> Your keyboard settings (dark theme, key preview) are stored locally on your device and are never transmitted to our servers.</li>
+        <li><strong>Instance Identifier:</strong> A randomly generated UUID to manage your subscription and daily usage limits. This identifier is NOT linked to your device hardware, personal identity, or any account.</li>
+        <li><strong>Usage Counts:</strong> We track the number of times you use each AI feature (voice transcription, grammar correction, rephrasing, tone adjustment, summarization) to enforce daily usage limits. We do NOT store the content of your text.</li>
+        <li><strong>Subscription Status:</strong> Whether you have an active Pro subscription, to determine your usage limits.</li>
     </ul>
 
-    <h2>4. Data Sharing</h2>
-    <p>We do not sell, rent, or share your personal information with third parties, except:</p>
+    <h3>2.3 Information We Do NOT Collect</h3>
     <ul>
-        <li><strong>AI Service Providers:</strong> We use OpenAI's API services to provide AI features. Your text is processed according to their privacy policy.</li>
-        <li><strong>Legal Requirements:</strong> We may disclose information if required by law or to protect our rights and users' safety.</li>
+        <li>Device type, model, or hardware identifiers</li>
+        <li>Operating system version or app version</li>
+        <li>Passwords or sensitive credentials</li>
+        <li>Credit card or payment information (handled by Google Play)</li>
+        <li>Precise location data</li>
+        <li>Contacts or address book</li>
+        <li>Photos, files, or other media</li>
+        <li>Browsing history</li>
+        <li>Crash reports or diagnostics</li>
+        <li>Text typed using standard keyboard (without AI features)</li>
     </ul>
 
-    <h2>5. Your Rights and Choices</h2>
+    <h2>3. How We Use Your Information</h2>
+    <p>We use the collected information for the following purposes:</p>
+
+    <table>
+        <tr>
+            <th>Purpose</th>
+            <th>Data Used</th>
+            <th>Legal Basis (GDPR)</th>
+        </tr>
+        <tr>
+            <td>Provide AI features (transcription, grammar, enhancement)</td>
+            <td>Text/voice you submit</td>
+            <td>Contract performance</td>
+        </tr>
+        <tr>
+            <td>Manage subscriptions and usage limits</td>
+            <td>Instance identifier, usage counts</td>
+            <td>Contract performance</td>
+        </tr>
+        <tr>
+            <td>Improve and optimize services</td>
+            <td>Anonymous usage counts</td>
+            <td>Legitimate interest</td>
+        </tr>
+        <tr>
+            <td>Respond to support requests</td>
+            <td>Email, communication content</td>
+            <td>Contract performance</td>
+        </tr>
+    </table>
+
+    <h2>4. Data Retention</h2>
     <ul>
-        <li><strong>Opt-Out:</strong> You can choose not to use AI features at any time by simply not activating them.</li>
-        <li><strong>Data Deletion:</strong> Since we don't store your text or voice data long-term, there's no persistent data to delete.</li>
-        <li><strong>Permissions:</strong> You can revoke microphone and other permissions through your device settings at any time.</li>
+        <li><strong>Text and Voice Data:</strong> Processed in real-time and deleted immediately after processing. We do NOT retain copies.</li>
+        <li><strong>Usage Counts:</strong> Stored in server memory only; reset daily and not persisted to any database.</li>
+        <li><strong>Instance Identifiers:</strong> Stored in server memory during active use; not persisted to permanent storage.</li>
+        <li><strong>Support Communications:</strong> Retained for up to 24 months to provide ongoing support.</li>
     </ul>
 
-    <h2>6. Children's Privacy</h2>
-    <p>TypeGenius is not intended for users under the age of 13. We do not knowingly collect personal information from children under 13. If you believe we have inadvertently collected such information, please contact us immediately.</p>
-
-    <h2>7. Third-Party Services</h2>
-    <p>Our app uses the following third-party services:</p>
+    <h2>5. Data Storage and Security</h2>
     <ul>
-        <li><strong>OpenAI:</strong> For AI text enhancement and voice transcription. <a href="https://openai.com/privacy" target="_blank" style="color: #667eea;">OpenAI Privacy Policy</a></li>
+        <li><strong>Encryption in Transit:</strong> All data transmitted between your device and our servers uses TLS 1.2 or higher encryption.</li>
+        <li><strong>Secure Infrastructure:</strong> Our backend services are hosted on Railway, a secure cloud platform with SOC 2 compliance.</li>
+        <li><strong>Access Controls:</strong> Access to our systems is restricted to authorized personnel only.</li>
+        <li><strong>No Long-Term Storage:</strong> Text and voice data are processed in memory and never written to persistent storage.</li>
+        <li><strong>Local Data:</strong> Your keyboard preferences and settings are stored locally on your device and never transmitted to our servers.</li>
     </ul>
 
-    <h2>8. Changes to This Privacy Policy</h2>
-    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by updating the "Last Updated" date at the top of this policy. Your continued use of TypeGenius after any changes constitutes acceptance of the updated policy.</p>
+    <h2>6. Data Sharing and Disclosure</h2>
+    <p>We do NOT sell, rent, or trade your personal information. We may share information only in the following circumstances:</p>
 
-    <h2>9. International Users</h2>
-    <p>TypeGenius is available globally. By using our service, you consent to the transfer and processing of your data in accordance with this Privacy Policy, regardless of where you are located.</p>
+    <h3>6.1 Service Providers</h3>
+    <ul>
+        <li><strong>OpenAI:</strong> We use OpenAI's GPT and Whisper APIs to power AI features. Text and voice data are sent to OpenAI for processing. OpenAI's data usage is governed by their <a href="https://openai.com/policies/api-data-usage-policies" target="_blank">API Data Usage Policy</a>, which states that API data is not used to train their models.</li>
+        <li><strong>Railway:</strong> Our backend infrastructure provider. They do not have access to your data content.</li>
+        <li><strong>Google Play:</strong> Handles all payment processing for subscriptions. We do not receive or store your payment information.</li>
+    </ul>
+
+    <h3>6.2 Legal Requirements</h3>
+    <p>We may disclose information if required by law, court order, or government request, or to protect the rights, safety, and security of our users and services.</p>
+
+    <h2>7. Your Rights and Choices</h2>
+
+    <h3>7.1 All Users</h3>
+    <ul>
+        <li><strong>Opt-Out of AI Features:</strong> You can use TypeGenius as a standard keyboard without activating any AI features.</li>
+        <li><strong>Manage Permissions:</strong> Revoke microphone or other permissions through your device settings at any time.</li>
+        <li><strong>Uninstall:</strong> Remove the app at any time to stop all data collection.</li>
+        <li><strong>Contact Us:</strong> Request information about what data we have associated with your instance identifier.</li>
+    </ul>
+
+    <h3>7.2 European Economic Area (EEA) Users - GDPR Rights</h3>
+    <p>If you are located in the EEA, you have the following additional rights:</p>
+    <ul>
+        <li><strong>Right to Access:</strong> Request a copy of personal data we hold about you.</li>
+        <li><strong>Right to Rectification:</strong> Request correction of inaccurate data.</li>
+        <li><strong>Right to Erasure:</strong> Request deletion of your personal data.</li>
+        <li><strong>Right to Restrict Processing:</strong> Request limitation of how we use your data.</li>
+        <li><strong>Right to Data Portability:</strong> Receive your data in a structured, machine-readable format.</li>
+        <li><strong>Right to Object:</strong> Object to processing based on legitimate interests.</li>
+        <li><strong>Right to Withdraw Consent:</strong> Withdraw consent at any time where processing is based on consent.</li>
+    </ul>
+    <p>To exercise these rights, contact us at aibusinesscollab@gmail.com. We will respond within 30 days.</p>
+
+    <h3>7.3 California Users - CCPA Rights</h3>
+    <p>If you are a California resident, you have the right to:</p>
+    <ul>
+        <li>Know what personal information we collect and how it is used</li>
+        <li>Request deletion of your personal information</li>
+        <li>Opt-out of the sale of personal information (note: we do NOT sell personal information)</li>
+        <li>Non-discrimination for exercising your privacy rights</li>
+    </ul>
+
+    <h2>8. Children's Privacy</h2>
+    <p>TypeGenius is not intended for children under the age of 13 (or 16 in the EEA). We do not knowingly collect personal information from children. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately at aibusinesscollab@gmail.com, and we will take steps to delete such information.</p>
+
+    <h2>9. Third-Party Services</h2>
+    <p>Our App integrates with the following third-party services:</p>
+    <ul>
+        <li><strong>OpenAI API:</strong> Powers voice transcription (Whisper) and text enhancement (GPT). <a href="https://openai.com/policies/privacy-policy" target="_blank">Privacy Policy</a> | <a href="https://openai.com/policies/api-data-usage-policies" target="_blank">API Data Usage Policy</a></li>
+        <li><strong>Google Play Billing:</strong> Handles subscription payments. <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+    </ul>
+
+    <h2>10. Advertising</h2>
+    <p>TypeGenius does NOT display advertisements. We do NOT share your data with advertising networks or use your data for advertising purposes.</p>
+
+    <h2>11. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will update the "Last Updated" date at the top of this policy. Your continued use of TypeGenius after any changes constitutes acceptance of the updated policy.</p>
+
+    <h2>12. Data Controller Information</h2>
+    <p>For the purposes of applicable data protection laws, the data controller is:</p>
+    <p><strong>AI Genius Collab</strong><br>
+    Email: aibusinesscollab@gmail.com</p>
 
     <div class="contact">
-        <h2>10. Contact Us</h2>
-        <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:</p>
-        <p><strong>Email:</strong>  aibusinesscollab@gmail.com</p>
+        <h2>13. Contact Us</h2>
+        <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
+        <p><strong>Email:</strong> aibusinesscollab@gmail.com</p>
+        <p><strong>Response Time:</strong> We aim to respond to all inquiries within 10 business days.</p>
+        <p>For GDPR-related inquiries, we will respond within 30 days as required by law.</p>
     </div>
 
     <div class="footer">
-        <p>© 2025 TypeGenius. All rights reserved.</p>
+        <p>&copy; 2026 TypeGenius. All rights reserved.</p>
         <p>⚡ TypeGenius - Your AI-Powered Keyboard</p>
     </div>
 </div>
 </body>
-
 </html>
-
-
