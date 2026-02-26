@@ -136,7 +136,7 @@
         <p style="color: #667eea; font-weight: bold;">TypeGenius AI Keyboard</p>
     </div>
 
-    <p class="last-updated">Effective Date: February 1, 2026 | Last Updated: February 1, 2026</p>
+    <p class="last-updated">Effective Date: February 1, 2026 | Last Updated: February 26, 2026</p>
 
     <p>At TypeGenius ("we," "our," or "us"), we are committed to protecting your privacy. This Privacy Policy describes how we collect, use, disclose, and safeguard your information when you use our TypeGenius AI Keyboard mobile application (the "App").</p>
 
@@ -155,7 +155,7 @@
     <p>TypeGenius functions as an Input Method Editor (IME) on your device. This means:</p>
     <ul>
         <li><strong>Local Processing:</strong> Standard typing (without AI features) is processed entirely on your device. We do NOT transmit your keystrokes to any server during normal typing.</li>
-        <li><strong>AI Feature Processing:</strong> When you explicitly activate AI features (voice transcription, grammar correction, text enhancement), only that specific text is securely transmitted to our servers for processing.</li>
+        <li><strong>AI Feature Processing:</strong> When you explicitly activate AI features (voice transcription, grammar correction, text enhancement, Genius), only that specific text is securely transmitted to our servers for processing.</li>
         <li><strong>No Keystroke Logging:</strong> We do NOT log, store, or analyze your typing patterns, passwords, or any text you type unless you explicitly use an AI feature.</li>
     </ul>
 
@@ -163,22 +163,25 @@
 
     <h3>2.1 Information You Provide</h3>
     <ul>
-        <li><strong>Text for AI Processing:</strong> When you use AI features (voice-to-text, grammar correction, text enhancement, translation), we temporarily process the text you submit.</li>
+        <li><strong>Text for AI Processing:</strong> When you use AI features (voice-to-text, grammar correction, text enhancement, translation, Genius), we temporarily process the text you submit.</li>
+        <li><strong>Genius Instructions and Context:</strong> When you use the Genius feature, we process the instruction you type and, if you have selected text, the selected text you choose to include as context. Both are sent to our servers and third-party AI providers for processing and are not retained afterward.</li>
         <li><strong>Voice Recordings:</strong> When you use voice transcription, audio is transmitted to our servers, processed, and immediately deleted.</li>
+        <li><strong>Feedback Submissions:</strong> If you use our in-app "Help Us Improve" feedback form, we collect the feedback responses you provide (what you love, what could be better, feature requests). This information is stored in our database to help us improve the App.</li>
+        <li><strong>Email Address (Optional):</strong> You may optionally provide your email address when submitting feedback, if you would like us to follow up. We will only use this email to respond to your specific feedback and for no other purpose.</li>
         <li><strong>Support Communications:</strong> If you contact us for support, we may collect your email address and the content of your communications.</li>
     </ul>
 
     <h3>2.2 Automatically Collected Information</h3>
     <ul>
-        <li><strong>Instance Identifier:</strong> A randomly generated UUID to manage your subscription and daily usage limits. This identifier is NOT linked to your device hardware, personal identity, or any account.</li>
-        <li><strong>Usage Counts:</strong> We track the number of times you use each AI feature (voice transcription, grammar correction, rephrasing, tone adjustment, summarization) to enforce daily usage limits. We do NOT store the content of your text.</li>
+        <li><strong>Instance Identifier:</strong> A randomly generated UUID to manage your subscription and daily usage limits. This identifier is NOT linked to your device hardware, personal identity, or any account. It is stored on our server alongside usage records and feedback submissions to associate them with your app installation.</li>
+        <li><strong>Usage Counts:</strong> We track the number of times you use each AI feature (voice transcription, grammar correction, rephrasing, tone adjustment, summarization, Genius) to enforce daily usage limits. We do NOT store the content of your text.</li>
         <li><strong>Subscription Status:</strong> Whether you have an active Pro subscription, to determine your usage limits.</li>
+        <li><strong>Device Information (Feedback Only):</strong> If you submit feedback through the in-app form, basic device information (device name, device model, Android version) is included alongside your feedback to help us diagnose issues. This information is only collected when you actively submit the feedback form and is NOT collected during normal keyboard use.</li>
     </ul>
 
     <h3>2.3 Information We Do NOT Collect</h3>
     <ul>
-        <li>Device type, model, or hardware identifiers</li>
-        <li>Operating system version or app version</li>
+        <li>Device hardware identifiers (IMEI, serial number, etc.)</li>
         <li>Passwords or sensitive credentials</li>
         <li>Credit card or payment information (handled by Google Play)</li>
         <li>Precise location data</li>
@@ -199,8 +202,8 @@
             <th>Legal Basis (GDPR)</th>
         </tr>
         <tr>
-            <td>Provide AI features (transcription, grammar, enhancement)</td>
-            <td>Text/voice you submit</td>
+            <td>Provide AI features (transcription, grammar, enhancement, Genius)</td>
+            <td>Text/voice you submit, Genius instructions and selected text context</td>
             <td>Contract performance</td>
         </tr>
         <tr>
@@ -210,8 +213,13 @@
         </tr>
         <tr>
             <td>Improve and optimize services</td>
-            <td>Anonymous usage counts</td>
+            <td>Anonymous usage counts, feedback submissions</td>
             <td>Legitimate interest</td>
+        </tr>
+        <tr>
+            <td>Respond to feedback</td>
+            <td>Feedback content, optional email address, device information</td>
+            <td>Legitimate interest / Consent</td>
         </tr>
         <tr>
             <td>Respond to support requests</td>
@@ -223,8 +231,11 @@
     <h2>4. Data Retention</h2>
     <ul>
         <li><strong>Text and Voice Data:</strong> Processed in real-time and deleted immediately after processing. We do NOT retain copies.</li>
-        <li><strong>Usage Counts:</strong> Stored in server memory only; reset daily and not persisted to any database.</li>
-        <li><strong>Instance Identifiers:</strong> Stored in server memory during active use; not persisted to permanent storage.</li>
+        <li><strong>Genius Instructions and Context:</strong> Processed in real-time and deleted immediately after the AI response is generated. We do NOT retain copies.</li>
+        <li><strong>Usage Counts:</strong> Stored on our server; reset daily.</li>
+        <li><strong>Instance Identifiers:</strong> Stored on our server for the duration of your app installation to manage usage limits and associate feedback.</li>
+        <li><strong>Feedback Submissions:</strong> Stored in our database for as long as needed to improve our services. You may request deletion at any time by contacting us.</li>
+        <li><strong>Email Addresses (from Feedback):</strong> Retained only as long as needed to follow up on your feedback, then deleted. You may request deletion at any time.</li>
         <li><strong>Support Communications:</strong> Retained for up to 24 months to provide ongoing support.</li>
     </ul>
 
@@ -232,8 +243,9 @@
     <ul>
         <li><strong>Encryption in Transit:</strong> All data transmitted between your device and our servers uses TLS 1.2 or higher encryption.</li>
         <li><strong>Secure Infrastructure:</strong> Our backend services are hosted on Railway, a secure cloud platform with SOC 2 compliance.</li>
+        <li><strong>Database Security:</strong> Feedback submissions and usage data are stored in a secured database with access restricted to authorized personnel only.</li>
         <li><strong>Access Controls:</strong> Access to our systems is restricted to authorized personnel only.</li>
-        <li><strong>No Long-Term Storage:</strong> Text and voice data are processed in memory and never written to persistent storage.</li>
+        <li><strong>No Long-Term Storage of Content:</strong> Text, voice data, and Genius instructions are processed in memory and never written to persistent storage.</li>
         <li><strong>Local Data:</strong> Your keyboard preferences and settings are stored locally on your device and never transmitted to our servers.</li>
     </ul>
 
@@ -242,7 +254,7 @@
 
     <h3>6.1 Service Providers</h3>
     <ul>
-        <li><strong>OpenAI:</strong> We use OpenAI's GPT and Whisper APIs to power AI features. Text and voice data are sent to OpenAI for processing. OpenAI's data usage is governed by their <a href="https://openai.com/policies/api-data-usage-policies" target="_blank">API Data Usage Policy</a>, which states that API data is not used to train their models.</li>
+        <li><strong>OpenAI:</strong> We use OpenAI's GPT and Whisper APIs to power AI features, including the Genius feature. Text, voice data, and Genius instructions are sent to OpenAI for processing. OpenAI's data usage is governed by their <a href="https://openai.com/policies/api-data-usage-policies" target="_blank">API Data Usage Policy</a>, which states that API data is not used to train their models.</li>
         <li><strong>Railway:</strong> Our backend infrastructure provider. They do not have access to your data content.</li>
         <li><strong>Google Play:</strong> Handles all payment processing for subscriptions. We do not receive or store your payment information.</li>
     </ul>
@@ -256,6 +268,7 @@
     <ul>
         <li><strong>Opt-Out of AI Features:</strong> You can use TypeGenius as a standard keyboard without activating any AI features.</li>
         <li><strong>Manage Permissions:</strong> Revoke microphone or other permissions through your device settings at any time.</li>
+        <li><strong>Feedback Deletion:</strong> Request deletion of any feedback you have submitted, including your email address, by contacting us.</li>
         <li><strong>Uninstall:</strong> Remove the app at any time to stop all data collection.</li>
         <li><strong>Contact Us:</strong> Request information about what data we have associated with your instance identifier.</li>
     </ul>
@@ -263,9 +276,9 @@
     <h3>7.2 European Economic Area (EEA) Users - GDPR Rights</h3>
     <p>If you are located in the EEA, you have the following additional rights:</p>
     <ul>
-        <li><strong>Right to Access:</strong> Request a copy of personal data we hold about you.</li>
+        <li><strong>Right to Access:</strong> Request a copy of personal data we hold about you, including any feedback submissions and associated email address.</li>
         <li><strong>Right to Rectification:</strong> Request correction of inaccurate data.</li>
-        <li><strong>Right to Erasure:</strong> Request deletion of your personal data.</li>
+        <li><strong>Right to Erasure:</strong> Request deletion of your personal data, including feedback submissions, email addresses, and instance identifiers.</li>
         <li><strong>Right to Restrict Processing:</strong> Request limitation of how we use your data.</li>
         <li><strong>Right to Data Portability:</strong> Receive your data in a structured, machine-readable format.</li>
         <li><strong>Right to Object:</strong> Object to processing based on legitimate interests.</li>
@@ -277,7 +290,7 @@
     <p>If you are a California resident, you have the right to:</p>
     <ul>
         <li>Know what personal information we collect and how it is used</li>
-        <li>Request deletion of your personal information</li>
+        <li>Request deletion of your personal information, including feedback and email addresses</li>
         <li>Opt-out of the sale of personal information (note: we do NOT sell personal information)</li>
         <li>Non-discrimination for exercising your privacy rights</li>
     </ul>
@@ -288,7 +301,7 @@
     <h2>9. Third-Party Services</h2>
     <p>Our App integrates with the following third-party services:</p>
     <ul>
-        <li><strong>OpenAI API:</strong> Powers voice transcription (Whisper) and text enhancement (GPT). <a href="https://openai.com/policies/privacy-policy" target="_blank">Privacy Policy</a> | <a href="https://openai.com/policies/api-data-usage-policies" target="_blank">API Data Usage Policy</a></li>
+        <li><strong>OpenAI API:</strong> Powers voice transcription (Whisper), text enhancement (GPT), and the Genius feature (GPT). <a href="https://openai.com/policies/privacy-policy" target="_blank">Privacy Policy</a> | <a href="https://openai.com/policies/api-data-usage-policies" target="_blank">API Data Usage Policy</a></li>
         <li><strong>Google Play Billing:</strong> Handles subscription payments. <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
     </ul>
 
